@@ -1,0 +1,197 @@
+body {
+    background-color: lightblue;
+    font-family: sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+head {
+
+}
+
+img {
+    max-width: 500px;
+    border-radius: 20px;
+}
+
+#first-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 32px;
+    display: grid;
+    place-items: left;
+    width: 500px;
+}
+
+#first-card p {
+    all:unset;
+    color:grey;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+#first-card h1 {
+    all: unset;
+    padding-top: 24px;
+    padding-bottom: 12px;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: -0.5px;
+}
+
+#second-card {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 32px;
+    display: grid;
+    place-items: left;
+    width: 500px;
+}
+
+#second-card h2 {
+    all: unset;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: -0.5;
+    
+}
+
+#second-card span {
+    font-weight: bold;
+    margin-bottom: 4px;
+    margin-top: 20px;
+    display: block;
+}
+
+#second-card li {
+    all:unset;
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+#second-card ul {
+    margin: 0;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#second-card hr {
+  border: none;
+  height: 1px;
+  background-color: lightgrey;
+  width: 500px;
+  margin-top: 16px;
+}
+
+#third-card {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 32px;
+    display: grid;
+    place-items: left;
+    width: 500px;
+}
+
+#third-card h2 {
+    all: unset;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: -0.5;
+}
+
+#third-card hr {
+  border: none;
+  height: 1px;
+  background-color: lightgrey;
+  width: 500px;
+  margin-top: 20px;
+}
+
+#third-card li {
+    list-style: none;
+    margin-left: 0;
+    margin-right: 20px;
+    margin-bottom: 8px;
+}
+
+#third-card ul {
+    margin: 0;
+    padding-left: 0;
+    margin-top: 16px;
+}
+
+#fourth-card {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 32px;
+    display: grid;
+    place-items: left;
+    width: 500px;
+}
+
+#fourth-card h2 {
+    all: unset;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: -0.5;
+}
+
+#fourth-card hr {
+  border: none;
+  height: 1px;
+  background-color: lightgrey;
+  width: 500px;
+  margin-top: 16px;
+}
+
+#fourth-card li {
+    margin-left: 0;
+    margin-right: 20px;
+    margin-bottom: 8px;
+}
+
+#fourth-card ul {
+    margin: 0;
+    padding-left: 0;
+    margin-top: 16px;
+}
+
+#fifth-card {
+    margin-top: 20px;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 32px;
+    display: grid;
+    place-items: left;
+    width: 500px;
+}
+
+#fifth-card h2 {
+    all: unset;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: -0.5;
+}
+
+#fifth-card hr {
+  border: none;
+  height: 1px;
+  background-color: lightgrey;
+  width: 500px;
+  margin-top: 16px;
+}
+
+#fifth-card p {
+    all:unset;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#fifth-card span {
+    font-weight: bold;
+}
