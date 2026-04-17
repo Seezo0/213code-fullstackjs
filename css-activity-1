@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="first-card">
+        <img src="https://www.inspiredtaste.net/wp-content/uploads/2025/07/Pancake-Recipe-1.jpg" alt="Fluffy Pancakes On a Plate">
+        <h1>Fluffy Pancakes Recipe</h1>
+        <p>These soft and fluffy pancakes are perfect for a quick and delicious breakfast. They are easy to make and require simple ingredients you likely already have at home.</p>
+    </div>
+    <div id="second-card">
+        <h2>Preparation Time</h2>
+        <hr>
+        <ul>
+            <li><span>Prep Time</span> 5 Minutes</li>
+            <li><span>Cook Time</span> 10 Minutes</li>
+            <li><span>Total Time</span> 15 Minutes</li>
+        </ul>
+    </div>
+    <div id="third-card">
+        <h2>Ingredients</h2>
+        <hr>
+        <ul>
+            <li>1 Cup all-purpose floud</li>
+            <li>Tablespoon sugar</li>
+            <li>1 Cup milk</li>
+        </ul>
+    </div>
+    <div id="fourth-card">
+        <h2>Instructions</h2>
+        <hr>
+        <ol>
+            <li>In a bowl, mix flour and sugar, then add milk and stir until smooth.</li>
+            <li>Heat a pan over medium heat and pour small portions of batter.</li>
+            <li>Cook until bubbles form, flip, and cook the other side until golden.</li>
+        </ol>
+    </div>
+    <div id="fifth-card">
+        <h2>Nutrition</h2>
+        <hr>
+        <p><span>Calories:</span> 220 kcal</p>
+        <hr>
+        <p><span>Carbs:</span> 30g</p>
+        <hr>
+        <p><span>Proteins:</span> 6g</p>
+        <hr>
+        <p><span>Fat:</span> 7g</p>
+    </div>    
+</body>
+</html>
