@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="convert-div">
+        <h1>Currency Coverter</h1>
+        <div class="amount">
+            <label class="convert-field-label" for="convert-field">Amount to convert</label><br>
+            <input type="number" id="convert-field" placeholder="example: 199">
+        </div><br>
+        <div class="currency-selector">
+            <div class="from">
+                <label for="curreny-menu-from">From</label><br>
+                    <select id="curreny-menu-from">
+                        <option>Euro</option>
+                        <option>DZD</option>
+                    </select>
+            </div>
+            <div class="to">
+                <label for="curreny-menu-to">To</label><br>
+                    <select id="curreny-menu-to">
+                        <option>DZD</option>
+                        <option>Euro</option>
+                    </select>
+            </div>
+        </div><br>
+        <button class="convert-button" onClick="convert()">Convert</button>
+        <p class="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
